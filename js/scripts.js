@@ -7,11 +7,13 @@ $(document).ready(function() {
     var person = $("#person").val();
     $('#result').show();
     
-    if (system =="Desktop applications"){
-      
+    if (system =="Desktop applications"&&criteria=="Language complexity"){
       $('#ruby').show();
-   
-    }
+       } else if ((company=="Microsoft"||company=="Facebook")&&end=="front-end"){
+        $('#jscript').show();
+       } else {
+        $('#c').show();
+       }
     event.preventDefault();
   });
 });
