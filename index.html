@@ -16,24 +16,74 @@
         <div>
           <form id="survey">
 
-          <p>Questions are here </p>
+          <p>1.	What software system you would like to develop?</p>
+
+          <select class="form-control" id="system">
+            <option>Desktop applications </option>
+            <option>Web applications </option>
+            <option>Embedded systems </option>
+            <option>Client/server applications </option>
+            <option>Operating systems</option>
+          </select>
+
+            <p>2.	Are you more interested in front-end (design) or back-end (function) development?</p>
+
+            <div class="radio">
+              <label>
+                <input type="radio" name="end" value="front-end" checked>
+                Front-end
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="end" value="back-end" checked>
+                Back-end
+              </label>
+            </div>
+
+            <p>3.	Which of these companies would you prefer to work with? </p>
+            <select class="form-control" id="company">
+              <option>Microsoft </option>
+              <option>Google </option>
+              <option>Facebook </option>
+              <option>Amazon</option>
+            </select>
+          
+            <p>4.	Based on what criteria you plan to select the language? </p>
+            <select class="form-control" id="criteria">
+              <option>Popularity among programmers</option>
+              <option>Language age</option>
+              <option>Usage in Social Media </option>
+              <option>Language complexity</option>
+            </select>
+
+            <p>5.	What Individual Person Will Have the Most Influence In Tech This Year? </p>
+            <select class="form-control" id="person">
+              <option>Elon Musk</option>
+              <option>Jeff Bezos</option>
+              <option>Satya Nadella</option>
+            </select>
+
             <button type="submit" class="btn">Show me the result!</button>
           </form>
         </div>
 
         <div id="c">
           <h1>C</h1>
-          <p>Text about C</p>
+          <p>C counts as a general-purpose language, but in practice, it is mainly used for specific fields: systems and embedded programming.It is used in cases where there are no clear alternatives, and you should choose to learn this language when you need to build these types of applications.</p>
         </div>
 
         <div id="jscript">
           <h1>JavaScript</h1>
-          <p>Text about JavaScript</p>
+          <p>It’s impossible to be a software developer these days without using JavaScript in some way. According to Stack Overflow's 2019 Developer Survey, JavaScript is the most popular language among developers for the seventh year in a row.</p>
+          <p>Along with HTML and CSS, JavaScript is essential to front-end web development. A majority of the web’s most popular sites, from Facebook and Twitter to Gmail and YouTube, rely on JavaScript to create interactive web pages and dynamically display content to users.</p>
+          <p>Because JavaScript has a forgiving, flexible syntax and works across all major browsers, it is one of the friendliest programming languages for beginners.
+            JavaScript is primarily a front-end language run on the browser, it can also be used on the server-side through Node.js to build scalable network applications.</p>
         </div>
 
         <div id="ruby">
           <h1>Ruby</h1>
-          <p>Text about Ruby</p>
+          <p>A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.</p>
         </div>
 
     </div>
