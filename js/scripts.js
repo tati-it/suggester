@@ -1,22 +1,20 @@
 $(document).ready(function() {
   $("form#survey").submit(function(event) {
-    var system = $("#question-system").val();
-    var end = $("input:radio[name=question-end]:checked").val();
-    var company = $("#question-company").val();
-    var criteria = $("#question-criteria").val();
-    var person = $("#question-person").val();
+    var answer_system = $("#question-system").val();
+    var answer_end = $("input:radio[name=question-end]:checked").val();
+    var answer_company = $("#question-company").val();
+    var answer_criteria = $("#question-criteria").val();
+    var answer_person = $("#question-person").val();
     
     $("#language-ruby").hide();
     $("#language-jscript").hide();
     $("#language-c").hide();
 
     $('#result').show();
-  
 
-
-    if (system =="Desktop applications"&&criteria=="Language complexity"){
+    if (answer_system =="Desktop applications"&&answer_criteria=="Language complexity"){
       $('#language-ruby').show();
-       } else if ((company=="Microsoft"||company=="Facebook")&&end=="front-end"){
+       } else if ((answer_company=="Microsoft"||answer_company=="Facebook")&&answer_end=="front-end"){
         $('#language-jscript').show();
        } else {
         $('#language-c').show();
