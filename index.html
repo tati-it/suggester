@@ -11,10 +11,21 @@
     <div class="container">
       <h1>Programming Language Suggester</h1>
       <p>A programming language is a tool and choosing the right one will influence programmer’s career, economic prospects, and future happiness. This survey will help you to determine which language you should learn first.</p>
+     
+     
+      <div class="form-horizontal">
+        <label for="name">What is your name?
+          <input id="name" class="control-label" type="text">
+        </label>
+      </div>
+
 
       <h1>Survey</h1>
         <div>
           <form id="survey">
+
+            
+  
 
           <p>1.	What software system you would like to develop?</p>
 
@@ -69,10 +80,11 @@
         </div>
 
         <div id="result">
-          <h1>Here's the result for you</h1>
+          <h1><span class="name"></span>, Here's the result for you</h1>
           <p>You should pick the following language</p>
         </div>
         
+        <div class="languages">
         <div id="c">
           <h1>C</h1>
           <p>C counts as a general-purpose language, but in practice, it is mainly used for specific fields: systems and embedded programming.It is used in cases where there are no clear alternatives, and you should choose to learn this language when you need to build these types of applications.</p>
@@ -90,7 +102,7 @@
           <h1>Ruby</h1>
           <p>A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.</p>
         </div>
-
+        </div>
     </div>
   </body>
 </html>

@@ -5,8 +5,15 @@ $(document).ready(function() {
     var company = $("#company").val();
     var criteria = $("#criteria").val();
     var person = $("#person").val();
-    $('#result').show();
     
+    $("#ruby").hide();
+    $("#jscript").hide();
+    $("#c").hide();
+
+    $('#result').show();
+  
+
+
     if (system =="Desktop applications"&&criteria=="Language complexity"){
       $('#ruby').show();
        } else if ((company=="Microsoft"||company=="Facebook")&&end=="front-end"){
@@ -15,5 +22,6 @@ $(document).ready(function() {
         $('#c').show();
        }
     event.preventDefault();
+    
   });
 });
