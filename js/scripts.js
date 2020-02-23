@@ -12,13 +12,14 @@ $(document).ready(function() {
 
     $('#result').show();
 
-    if (answer_system =="Desktop applications"&&answer_criteria=="Language complexity"){
+    if (answer_system == "Desktop applications" && answer_criteria == "Language complexity"){
       $('#language-ruby').show();
-       } else if ((answer_company=="Microsoft"||answer_company=="Facebook")&&answer_end=="front-end"){
-        $('#language-jscript').show();
-       } else {
-        $('#language-c').show();
-       }
+        } else if ((answer_company == "Microsoft" || answer_company == "Facebook") && answer_end == "front-end"){
+          $('#language-jscript').show();
+        } else {
+          $('#language-c').show();
+        }
+        
     event.preventDefault();
     
   });
