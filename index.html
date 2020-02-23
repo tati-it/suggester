@@ -12,13 +12,6 @@
       <h1>Programming Language Suggester</h1>
       <p>A programming language is a tool and choosing the right one will influence programmer’s career, economic prospects, and future happiness. This survey will help you to determine which language you should learn first.</p>
      
-     
-      <div class="form-horizontal">
-        <label for="name">What is your name?
-          <input id="name" class="control-label" type="text">
-        </label>
-      </div>
-
 
       <h1>Survey</h1>
         <div>
@@ -29,7 +22,7 @@
 
           <p>1.	What software system you would like to develop?</p>
 
-          <select class="form-control" id="system">
+          <select class="form-control" id="question-system">
             <option>Desktop applications </option>
             <option>Web applications </option>
             <option>Embedded systems </option>
@@ -41,19 +34,19 @@
 
             <div class="radio">
               <label>
-                <input type="radio" name="end" value="front-end" checked>
+                <input type="radio" name="question-end" value="front-end" checked>
                 Front-end
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="end" value="back-end" checked>
+                <input type="radio" name="question-end" value="back-end" checked>
                 Back-end
               </label>
             </div>
 
             <p>3.	Which of these companies would you prefer to work with? </p>
-            <select class="form-control" id="company">
+            <select class="form-control" id="question-company">
               <option>Microsoft </option>
               <option>Google </option>
               <option>Facebook </option>
@@ -61,7 +54,7 @@
             </select>
           
             <p>4.	Based on what criteria you plan to select the language? </p>
-            <select class="form-control" id="criteria">
+            <select class="form-control" id="question-criteria">
               <option>Popularity among programmers</option>
               <option>Language age</option>
               <option>Usage in Social Media </option>
@@ -69,7 +62,7 @@
             </select>
 
             <p>5.	What Individual Person Will Have the Most Influence In Tech This Year? </p>
-            <select class="form-control" id="person">
+            <select class="form-control" id="question-person">
               <option>Elon Musk</option>
               <option>Jeff Bezos</option>
               <option>Satya Nadella</option>
@@ -80,17 +73,17 @@
         </div>
 
         <div id="result">
-          <h1><span class="name"></span>, Here's the result for you</h1>
+          <h1><span class="name"></span>Here's the result for you</h1>
           <p>You should pick the following language</p>
         </div>
         
         <div class="languages">
-        <div id="c">
+        <div id="language-c">
           <h1>C</h1>
           <p>C counts as a general-purpose language, but in practice, it is mainly used for specific fields: systems and embedded programming.It is used in cases where there are no clear alternatives, and you should choose to learn this language when you need to build these types of applications.</p>
         </div>
 
-        <div id="jscript">
+        <div id="language-jscript">
           <h1>JavaScript</h1>
           <p>It’s impossible to be a software developer these days without using JavaScript in some way. According to Stack Overflow's 2019 Developer Survey, JavaScript is the most popular language among developers for the seventh year in a row.</p>
           <p>Along with HTML and CSS, JavaScript is essential to front-end web development. A majority of the web’s most popular sites, from Facebook and Twitter to Gmail and YouTube, rely on JavaScript to create interactive web pages and dynamically display content to users.</p>
@@ -98,7 +91,7 @@
             JavaScript is primarily a front-end language run on the browser, it can also be used on the server-side through Node.js to build scalable network applications.</p>
         </div>
 
-        <div id="ruby">
+        <div id="language-ruby">
           <h1>Ruby</h1>
           <p>A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.</p>
         </div>
