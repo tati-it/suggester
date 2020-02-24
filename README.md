@@ -1,4 +1,4 @@
-# _suggester_
+# _Suggester_
 
 #### _Epicodus Independent Project - Programming Language Suggester, 02.23.2020_
 
