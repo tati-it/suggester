@@ -13,7 +13,7 @@ _An survey for people interested in coding to decide which language they should 
 * _Clone this repository https://github.com/tati-it/suggester.git_
 * _Use a terminal of your choice to access the webpage and its files by inputting: "git clone (the above clone link)"_
 * _Open the folder and open the link in the web browser of your choice to view it._
-* _gh-pages link:_ 
+* _gh-pages link:http://tati-it.github.io/suggester_ 
 
 
 
