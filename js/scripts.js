@@ -9,17 +9,21 @@ $(document).ready(function() {
     $("#language-ruby").hide();
     $("#language-jscript").hide();
     $("#language-c").hide();
-
-    $('#result').show();
-
-    if (answer_system == "Desktop applications" && answer_criteria == "Language complexity"){
+    $("#warning").hide();
+            
+    if (answer_system == "Choose..." || answer_company == "Choose..." || answer_criteria == "Choose..." || answer_person == "Choose..."){
+      $('#warning').show();
+    } else if (answer_system == "Desktop applications" && answer_criteria == "Language complexity"){
+      $('#result').show();
       $('#language-ruby').show();
-        } else if ((answer_company == "Microsoft" || answer_company == "Facebook") && answer_end == "front-end"){
-          $('#language-jscript').show();
-        } else {
-          $('#language-c').show();
-        }
-        
+    } else if ((answer_company == "Microsoft" || answer_company == "Facebook") && answer_end == "front-end"){
+      $('#result').show();
+      $('#language-jscript').show();
+    } else {
+      $('#result').show();
+      $('#language-c').show();
+    }
+
     event.preventDefault();
     
   });

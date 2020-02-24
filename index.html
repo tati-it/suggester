@@ -23,6 +23,7 @@
           <div class="row">
           <p><strong>1.	What software system you would like to develop?</strong></p>
           <select class="form-control" id="question-system">
+            <option>Choose...</option>
             <option>Desktop applications </option>
             <option>Web applications </option>
             <option>Embedded systems </option>
@@ -51,6 +52,7 @@
           <div class="row">
             <p><strong>3.	Which of these companies would you prefer to work with?</strong></p>
             <select class="form-control" id="question-company">
+              <option>Choose...</option>
               <option>Microsoft </option>
               <option>Google </option>
               <option>Facebook </option>
@@ -61,6 +63,7 @@
           <div class="row">
             <p><strong>4.	Based on what criteria you plan to select the language?</strong></p>
             <select class="form-control" id="question-criteria">
+              <option>Choose...</option>
               <option>Popularity among programmers</option>
               <option>Language age</option>
               <option>Usage in Social Media </option>
@@ -71,6 +74,7 @@
           <div class="row">
             <p><strong>5.	What Individual Person Will Have the Most Influence In Tech This Year?</strong></p>
             <select class="form-control" id="question-person">
+              <option>Choose...</option>
               <option>Elon Musk</option>
               <option>Jeff Bezos</option>
               <option>Satya Nadella</option>
@@ -83,31 +87,35 @@
         </form>
       </div>
 
+      <div id="warning">
+        <h2><span class="name"></span>Opps.Something is wrong</h2>
+        <p>You didn't make all selections. Please select all the answers and try again.</p>
+      </div> 
+      
       <div id="result">
         <h2><span class="name"></span>Here's the result for you</h2>
         <p>You should pick the following language</p>
       
       
-      <div class="languages">
-        <div id="language-c">
-          <h1>C</h1>
-          <p>C counts as a general-purpose language, but in practice, it is mainly used for specific fields: systems and embedded programming.It is used in cases where there are no clear alternatives, and you should choose to learn this language when you need to build these types of applications.</p>
-        </div>
+        <div class="languages">
+          <div id="language-c">
+            <h1>C</h1>
+            <p>C counts as a general-purpose language, but in practice, it is mainly used for specific fields: systems and embedded programming.It is used in cases where there are no clear alternatives, and you should choose to learn this language when you need to build these types of applications.</p>
+          </div>
 
-        <div id="language-jscript">
-          <h1>JavaScript</h1>
-          <p>It’s impossible to be a software developer these days without using JavaScript in some way. According to Stack Overflow's 2019 Developer Survey, JavaScript is the most popular language among developers for the seventh year in a row.</p>
-          <p>Along with HTML and CSS, JavaScript is essential to front-end web development. A majority of the web’s most popular sites, from Facebook and Twitter to Gmail and YouTube, rely on JavaScript to create interactive web pages and dynamically display content to users.</p>
-          <p>Because JavaScript has a forgiving, flexible syntax and works across all major browsers, it is one of the friendliest programming languages for beginners.
-          JavaScript is primarily a front-end language run on the browser, it can also be used on the server-side through Node.js to build scalable network applications.</p>
-        </div>
+          <div id="language-jscript">
+            <h1>JavaScript</h1>
+            <p>It’s impossible to be a software developer these days without using JavaScript in some way. According to <a href="https://insights.stackoverflow.com/survey/2019">Stack Overflow's 2019 Developer Survey</a>, JavaScript is the most popular language among developers for the seventh year in a row.</p>
+            <p>Along with HTML and CSS, JavaScript is essential to front-end web development. A majority of the web’s most popular sites, from Facebook and Twitter to Gmail and YouTube, rely on JavaScript to create interactive web pages and dynamically display content to users.</p>
+            <p>Because JavaScript has a forgiving, flexible syntax and works across all major browsers, it is one of the friendliest programming languages for beginners.
+            JavaScript is primarily a front-end language run on the browser, it can also be used on the server-side through Node.js to build scalable network applications.</p>
+          </div>
 
-        <div id="language-ruby">
-          <h1>Ruby</h1>
-          <p>A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.</p>
+          <div id="language-ruby">
+            <h1>Ruby</h1>
+            <p>A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.</p>
+          </div>
         </div>
-
-      </div>
       </div>
     </div>
   </body>
