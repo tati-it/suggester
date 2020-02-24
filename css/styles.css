@@ -1,3 +1,19 @@
 #result,#language-c,#language-ruby,#language-jscript{
   display: none;
 }
+
+.questionary,.result{
+  margin: 12px;
+  padding: 4px;
+}
+
+.row{
+  margin: 14px;
+  padding: 4px;
+}
+
+h2 {
+  text-align: center;
+  background-color:  rgba(178, 182, 180, 0.671); 
+  margin-bottom: 25px;
+  }

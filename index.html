@@ -9,15 +9,19 @@
   </head>
   <body>
     <div class="container">
-      <h1>Programming Language Suggester</h1>
-      <p>A programming language is a tool and choosing the right one will influence programmer’s career, economic prospects, and future happiness. This survey will help you to determine which language you should learn first.</p>
-     
+      <div class="jumbotron"> 
+        <h1>Programming Language Suggester</h1>
+      </div>
+      <div class="row">
+        <p>A programming language is a tool and choosing the right one will influence programmer’s career, economic prospects, and future happiness. This survey will help you to determine which language you should learn first.</p>
+      </div>
       
-      <div>
+      <div class="questionary">
         <form id="survey">
-          <h1>Survey</h1>
-        
-          <p>1.	What software system you would like to develop?</p>
+          <h2>Survey</h2>
+          
+          <div class="row">
+          <p><strong>1.	What software system you would like to develop?</strong></p>
           <select class="form-control" id="question-system">
             <option>Desktop applications </option>
             <option>Web applications </option>
@@ -25,52 +29,64 @@
             <option>Client/server applications </option>
             <option>Operating systems</option>
           </select>
-
-          <p>2.	Are you more interested in front-end (design) or back-end (function) development?</p>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question-end" value="front-end" checked>
-              Front-end
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question-end" value="back-end" checked>
-              Back-end
-            </label>
           </div>
 
-          <p>3.	Which of these companies would you prefer to work with?</p>
-          <select class="form-control" id="question-company">
-            <option>Microsoft </option>
-            <option>Google </option>
-            <option>Facebook </option>
-            <option>Amazon</option>
-          </select>
-        
-          <p>4.	Based on what criteria you plan to select the language?</p>
-          <select class="form-control" id="question-criteria">
-            <option>Popularity among programmers</option>
-            <option>Language age</option>
-            <option>Usage in Social Media </option>
-            <option>Language complexity</option>
-          </select>
+          <div class="row">
+            <p><strong>2.	Are you more interested in front-end (design) or back-end (function) development?</strong></p>
+            
+            <div class="radio">
+              <label>
+                <input type="radio" name="question-end" value="front-end" checked>
+                Front-end
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question-end" value="back-end" checked>
+                Back-end
+              </label>
+            </div>
+          </div>
+         
+          <div class="row">
+            <p><strong>3.	Which of these companies would you prefer to work with?</strong></p>
+            <select class="form-control" id="question-company">
+              <option>Microsoft </option>
+              <option>Google </option>
+              <option>Facebook </option>
+              <option>Amazon</option>
+            </select>
+          </div>
 
-          <p>5.	What Individual Person Will Have the Most Influence In Tech This Year?</p>
-          <select class="form-control" id="question-person">
-            <option>Elon Musk</option>
-            <option>Jeff Bezos</option>
-            <option>Satya Nadella</option>
-          </select>
+          <div class="row">
+            <p><strong>4.	Based on what criteria you plan to select the language?</strong></p>
+            <select class="form-control" id="question-criteria">
+              <option>Popularity among programmers</option>
+              <option>Language age</option>
+              <option>Usage in Social Media </option>
+              <option>Language complexity</option>
+            </select>
+          </div>
 
-          <button type="submit" class="btn">Show me the result!</button>
+          <div class="row">
+            <p><strong>5.	What Individual Person Will Have the Most Influence In Tech This Year?</strong></p>
+            <select class="form-control" id="question-person">
+              <option>Elon Musk</option>
+              <option>Jeff Bezos</option>
+              <option>Satya Nadella</option>
+            </select>
+          </div>
+
+          <div class="row">
+            <button type="submit" class="btn btn-success">Show me the result!</button>
+          </div>
         </form>
       </div>
 
       <div id="result">
-        <h1><span class="name"></span>Here's the result for you</h1>
+        <h2><span class="name"></span>Here's the result for you</h2>
         <p>You should pick the following language</p>
-      </div>
+      
       
       <div class="languages">
         <div id="language-c">
@@ -90,7 +106,9 @@
           <h1>Ruby</h1>
           <p>A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.</p>
         </div>
+
+      </div>
       </div>
     </div>
   </body>
-</html>
+</html>`
