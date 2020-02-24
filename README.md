@@ -1,4 +1,4 @@
-# _suggester_
+# _Suggester_
 
 #### _Epicodus Independent Project - Programming Language Suggester, 02.23.2020_
 
@@ -10,10 +10,10 @@ _An survey for people interested in coding to decide which language they should 
 
 ## Setup/Installation Requirements
 
-* _Clone this repository https://github.com/tati-it/suggester.git
-* _Use a terminal of your choice to access the webpage and its files by inputting: "git clone {the above clone link}"
-* _Open the folder and open the link in the web browser of your choice to view it.
-* _gh-pages link: 
+* _Clone this repository https://github.com/tati-it/suggester.git _
+* _Use a terminal of your choice to access the webpage and its files by inputting: "git clone (the above clone link)"_
+* _Open the folder and open the link in the web browser of your choice to view it._
+* _gh-pages link: http://tati-it.github.io/suggester_
 
 
 
@@ -27,7 +27,7 @@ _HTML_
 _CSS_
 _Bootstrap_
 _JS_
-_jQuery
+_jQuery_
 
 ### License
 
